@@ -1,0 +1,23 @@
+.array-container{
+    position:fixed;
+    left: 20px;
+    right: 20px;
+    bottom:-1px;
+}
+
+.array-bar{
+    width: 2px;
+    background-color: purple;
+    display: inline-block;
+    margin:  1px;
+    
+
+}
+
+input[type=range]{
+    pointer-events: none;
+    width: 650px;
+}
+input[type=range]::-webkit-slider-thumb{
+    pointer-events: auto;
+}
